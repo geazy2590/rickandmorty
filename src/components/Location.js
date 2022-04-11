@@ -15,7 +15,6 @@ const Location = ({ location }) => {
     })();
   }, [location]);
 
-  console.log ( locationDetails );
   let { dimension, residents, type } = locationDetails
 
   return (
